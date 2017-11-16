@@ -23,6 +23,8 @@
       "footer";
   }
 
+
+
   .page-title {
     background-color: #f2b360;
     /*grid-row: 1;*/
@@ -48,13 +50,19 @@
     /*display: none;*/
     background-color: #dce2f7;
     /*grid-row: 5;*/
-    grid-area:
+    /*grid-area:*/
   }
 
   .page-footer {
     background-color: #ffe4b5;
     /*grid-row: 4;*/
     grid-area: footer;
+  }
+
+  @media screen and (max-width: 719px) {
+      .sidebar {
+          display: none;
+      }
   }
 
   @media screen and (min-width: 720px) {

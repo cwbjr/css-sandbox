@@ -1,0 +1,34 @@
+/*.main-content {
+    display: grid;
+}*/
+
+@media screen and (max-width: 796px) {
+    .containment {
+        min-width: 380px;
+    }
+
+    .nav-list .nav-links {
+        padding: 5px;
+    }
+    .nav-list li a {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 797px) and (max-width: 900px) {
+    .nav-list .nav-links {
+        padding: 5px;
+    }
+    .nav-list li a {
+        /*font-size: 16px;*/
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+}

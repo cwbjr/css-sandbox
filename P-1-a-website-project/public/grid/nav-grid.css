@@ -1,0 +1,18 @@
+.nav-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2vw;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+
+.nav-list .nav-links {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    background-color: green;
+
+}
