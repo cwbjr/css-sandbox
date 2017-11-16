@@ -1,5 +1,5 @@
 /* Small screens */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .containment {
         flex-direction: column;
         min-width: 320px;
@@ -16,7 +16,7 @@
 }
 
 /* Midium screens */
-@media only screen and (min-width: 769px) and (max-width: 900px) {
+@media screen and (min-width: 769px) and (max-width: 900px) {
     .main-header {
         flex: 35vw;
         padding-top: 0;
@@ -38,7 +38,7 @@
 }
 
 /* Pre-Large screens */
-@media only screen and (min-width: 901px) and (max-width: 988px) {
+@media screen and (min-width: 901px) and (max-width: 988px) {
     .main-header {
         flex: 25vw;
         padding-top: 0;
@@ -58,7 +58,7 @@
 }
 
 /* Large screens */
-@media only screen and (min-width: 989px) and (max-width: 1616px) {
+@media screen and (min-width: 989px) and (max-width: 1616px) {
     .main-header {
         flex: 25vw;
         padding-top: 0;
@@ -78,7 +78,7 @@
 }
 
 /* X-Large screensm */
-@media only screen and (min-width: 1617px) {
+@media screen and (min-width: 1617px) {
     .main-header {
         flex: 25vw;
         padding-top: 0;
